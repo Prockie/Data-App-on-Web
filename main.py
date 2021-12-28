@@ -17,3 +17,7 @@ Really nice
 
 st.write(df)
 st.line_chart(df)
+st.area_chart(df)
+
+myslider = st.slider('Celsuis')
+st.write(myslider, 'in Far', myslider * 9/5 + 32)
